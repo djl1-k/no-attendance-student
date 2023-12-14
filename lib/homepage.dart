@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
             bool? isRoomAvailable = data?['RoomAvailability'] as bool?;
             int? isRoomRented = data?['RoomRented'] as int?;
 
-            // Check if the room is available
+            // Check if the room is available and if it has been rented
             if (isRoomAvailable == true && isRoomRented == 0)  {
               // Display the list tile when the room is available
                 return Padding(
@@ -60,14 +60,14 @@ class _HomePageState extends State<HomePage> {
                         decoration: BoxDecoration(
                           color: Colors.blue[300],
                           border: Border.all(
-                          color: Colors.grey, // Set the border color
-                          width: 1.0, // Set the border width
+                          color: Colors.grey,
+                          width: 1.0, 
                           ),
                           borderRadius: BorderRadius.circular(20)
                         ),
                         
                         child: ListTile(
-                          contentPadding: EdgeInsets.all(16.0), // Add padding as needed
+                          contentPadding: EdgeInsets.all(16.0),
                           title: Text('Room 401'),
                           subtitle: Column(
                             crossAxisAlignment: CrossAxisAlignment.end,
@@ -79,7 +79,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                 );
             } else {
-              // Display an alternative widget when the room is not available
               return Center(
                 child: Text(
                   'There are no rooms available at this moment.',
@@ -94,7 +93,6 @@ class _HomePageState extends State<HomePage> {
             // Handle the error case if necessary
             return Text('Error: ${snapshot.error}');
           } else {
-            // Display a loading indicator or any other widget while data is being fetched
             return CircularProgressIndicator();
           }
         }),

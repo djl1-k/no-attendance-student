@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "799326031228",
+    "firebase_url": "https://flutter-real-time-d860b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flutter-real-time-d860b",
+    "storage_bucket": "flutter-real-time-d860b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799326031228:android:8cc0819f81e9d260f068f9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_noti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt_XpH0HVbFDiGpTov7FFEVjs_lhmmpqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799326031228:android:8ef846eb572a5600f068f9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_realtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt_XpH0HVbFDiGpTov7FFEVjs_lhmmpqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799326031228:android:583025b39ff7833ef068f9",
+        "android_client_info": {
+          "package_name": "com.example.room_rent_student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt_XpH0HVbFDiGpTov7FFEVjs_lhmmpqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
